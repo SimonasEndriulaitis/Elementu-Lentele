@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css - cascading stylesheets -->
+    <!-- internal CSS stilius -->
+    <style>
+        /* tr{
+            text-align: left;
+            background: gray;
+        } */
+        thead tr th {
+            text-align: left;
+            background: gray;
+        }
+        /* inth-child() yra speudo klases selektorius */
+        /* tbody tr:nth-child(4) {
+            background: red; */
+        /* } */
+        /* norint parinkti kas antra
+        tbody tr:nth-child(2n) {
+            background: red;
+        } */
+        /* ID selektoriai ima virsu pries visus kitus selektorius */
+        /* # groteles leidzia pasirinkti ID kuri nori modifikuot */
+        #treciaeilute {
+            background: green;
+        }
+        tbody tr:nth-child(odd) {
+            background: red;
+        }
+        tbody tr:nth-child(3) {
+            background: blue;
+        }
+        /* important raktazodis nurodo perrasyma visu kitu slektoriu taisykles */
+        tbody tr {
+            background: black;
+        }
+        table:nth-child(2) thead th {
+            background: violet;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead style="width: 100%;">
+          <tbody>
+            <tr>
+                <!-- th table heading -->
+                <th>#</th>
+                <th>Preke</th>
+                <th>Kiekis</th>
+                <th>Kaina</th>
+                <th>Suma</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <!-- inline stilius yra pritaikomas neatsizvelgiant i internal ar extternal -->
+            <tr id="treciaeilute">
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <!-- th table heading -->
+                <th>#</th>
+                <th>Preke</th>
+                <th>Kiekis</th>
+                <th>Kaina</th>
+                <th>Suma</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            inline stilius yra pritaikomas neatsizvelgiant i internal ar extternal
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Kompiuteris Sony Vaio</th>
+                <th>3</th>
+                <th>200</th>
+                <th>600</th>
+            </tr>
+          </tbody>
+        </thead>
+    </table>
+    
+</body>
+</html>
